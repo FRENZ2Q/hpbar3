@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hpbar",
+  "version": "${version}",
+  "name": "HP Bar",
+  "description": "Полоска здоровья над игроками, животными и мобами. Работает даже на невидимых. Настраивается по типам (клавиша H).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.hpbar.HpBarClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
